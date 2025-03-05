@@ -21,8 +21,8 @@ const globals = {
 	"Accept-Language": "en-US,en;q=0.9,de;q=0.8"
 };
 const mvgAPI = "https://www.mvg.de/";
-const apiBase = mvgAPI + "api/fib/v2/departure";
-const stationQuery = mvgAPI + "api/fib/v2/location";
+const apiBase = mvgAPI + "api/bgw-pt/v3/departures";
+const stationQuery = mvgAPI + "api/bgw-pt/v3/locations";
 const interruptionsURL = mvgAPI + ".rest/betriebsaenderungen/api/interruptions?_=";
 module.exports = NodeHelper.create({
 
